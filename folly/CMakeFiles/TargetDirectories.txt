@@ -1,0 +1,12 @@
+/Users/wsbuild/Downloads/folly/CMakeFiles/install.dir
+/Users/wsbuild/Downloads/folly/CMakeFiles/folly_test_util.dir
+/Users/wsbuild/Downloads/folly/CMakeFiles/folly.dir
+/Users/wsbuild/Downloads/folly/CMakeFiles/folly_base.dir
+/Users/wsbuild/Downloads/folly/CMakeFiles/ALL_BUILD.dir
+/Users/wsbuild/Downloads/folly/CMakeFiles/ZERO_CHECK.dir
+/Users/wsbuild/Downloads/folly/folly/CMakeFiles/install.dir
+/Users/wsbuild/Downloads/folly/folly/CMakeFiles/follybenchmark.dir
+/Users/wsbuild/Downloads/folly/folly/experimental/exception_tracer/CMakeFiles/install.dir
+/Users/wsbuild/Downloads/folly/folly/logging/example/CMakeFiles/install.dir
+/Users/wsbuild/Downloads/folly/folly/logging/example/CMakeFiles/logging_example_lib.dir
+/Users/wsbuild/Downloads/folly/folly/logging/example/CMakeFiles/logging_example.dir

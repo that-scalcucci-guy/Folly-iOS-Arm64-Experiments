@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C803311262DC1A600F48517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C803310262DC1A600F48517 /* AppDelegate.m */; };
+		0C803317262DC1A600F48517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C803316262DC1A600F48517 /* ViewController.m */; };
+		0C80331C262DC1A700F48517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C80331B262DC1A700F48517 /* Assets.xcassets */; };
+		0C80331F262DC1A700F48517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C80331D262DC1A700F48517 /* LaunchScreen.storyboard */; };
+		0C803322262DC1A700F48517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C803321262DC1A700F48517 /* main.m */; };
+		0C80332C262DC1A700F48517 /* FollyPhoneTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C80332B262DC1A700F48517 /* FollyPhoneTestTests.m */; };
+		0C803337262DC1A700F48517 /* FollyPhoneTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C803336262DC1A700F48517 /* FollyPhoneTestUITests.m */; };
+		0C803354262DC64D00F48517 /* FollyExecutor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C803353262DC64D00F48517 /* FollyExecutor.mm */; };
+		0C803361262DC9F200F48517 /* boost.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80335C262DC9ED00F48517 /* boost.xcframework */; };
+		0C803362262DC9F200F48517 /* boost.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80335C262DC9ED00F48517 /* boost.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C80336A262DCD8200F48517 /* glog.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C803366262DCD7D00F48517 /* glog.xcframework */; };
+		0C80336B262DCD8200F48517 /* glog.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C803366262DCD7D00F48517 /* glog.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C80337A262DD0AD00F48517 /* gflags.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C803376262DD0A800F48517 /* gflags.xcframework */; };
+		0C80337B262DD0AD00F48517 /* gflags.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C803376262DD0A800F48517 /* gflags.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C803382262DD14C00F48517 /* double-conversion.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80337E262DD14800F48517 /* double-conversion.xcframework */; };
+		0C803383262DD14C00F48517 /* double-conversion.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80337E262DD14800F48517 /* double-conversion.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C803391262DD70600F48517 /* libevent.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C803390262DD70600F48517 /* libevent.xcframework */; };
+		0C8033D2262F217300F48517 /* folly.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8033D1262F217300F48517 /* folly.xcframework */; };
+		0C8033FB262F5CB500F48517 /* fmt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8033FA262F5CB500F48517 /* fmt.xcframework */; };
+		0C8034762630A38E00F48517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8034752630A38E00F48517 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C803328262DC1A700F48517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C803304262DC1A600F48517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C80330B262DC1A600F48517;
+			remoteInfo = FollyPhoneTest;
+		};
+		0C803333262DC1A700F48517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C803304262DC1A600F48517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C80330B262DC1A600F48517;
+			remoteInfo = FollyPhoneTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C803363262DC9F200F48517 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C80336B262DCD8200F48517 /* glog.xcframework in Embed Frameworks */,
+				0C80337B262DD0AD00F48517 /* gflags.xcframework in Embed Frameworks */,
+				0C803383262DD14C00F48517 /* double-conversion.xcframework in Embed Frameworks */,
+				0C803362262DC9F200F48517 /* boost.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C80330C262DC1A600F48517 /* FollyPhoneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollyPhoneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C80330F262DC1A600F48517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C803310262DC1A600F48517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C803315262DC1A600F48517 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C803316262DC1A600F48517 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C80331B262DC1A700F48517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C80331E262DC1A700F48517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C803320262DC1A700F48517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C803321262DC1A700F48517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C803327262DC1A700F48517 /* FollyPhoneTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollyPhoneTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C80332B262DC1A700F48517 /* FollyPhoneTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollyPhoneTestTests.m; sourceTree = "<group>"; };
+		0C80332D262DC1A700F48517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C803332262DC1A700F48517 /* FollyPhoneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollyPhoneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C803336262DC1A700F48517 /* FollyPhoneTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollyPhoneTestUITests.m; sourceTree = "<group>"; };
+		0C803338262DC1A700F48517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C803352262DC64D00F48517 /* FollyExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollyExecutor.h; sourceTree = "<group>"; };
+		0C803353262DC64D00F48517 /* FollyExecutor.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FollyExecutor.mm; sourceTree = "<group>"; };
+		0C80335C262DC9ED00F48517 /* boost.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = boost.xcframework; sourceTree = "<group>"; };
+		0C803366262DCD7D00F48517 /* glog.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = glog.xcframework; sourceTree = "<group>"; };
+		0C803376262DD0A800F48517 /* gflags.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = gflags.xcframework; sourceTree = "<group>"; };
+		0C80337E262DD14800F48517 /* double-conversion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "double-conversion.xcframework"; sourceTree = "<group>"; };
+		0C803390262DD70600F48517 /* libevent.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libevent.xcframework; sourceTree = "<group>"; };
+		0C8033D1262F217300F48517 /* folly.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = folly.xcframework; sourceTree = "<group>"; };
+		0C8033FA262F5CB500F48517 /* fmt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = fmt.xcframework; sourceTree = "<group>"; };
+		0C8034752630A38E00F48517 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C803309262DC1A600F48517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8033D2262F217300F48517 /* folly.xcframework in Frameworks */,
+				0C80337A262DD0AD00F48517 /* gflags.xcframework in Frameworks */,
+				0C8033FB262F5CB500F48517 /* fmt.xcframework in Frameworks */,
+				0C803382262DD14C00F48517 /* double-conversion.xcframework in Frameworks */,
+				0C803361262DC9F200F48517 /* boost.xcframework in Frameworks */,
+				0C803391262DD70600F48517 /* libevent.xcframework in Frameworks */,
+				0C80336A262DCD8200F48517 /* glog.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C803324262DC1A700F48517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C80332F262DC1A700F48517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C803303262DC1A600F48517 = {
+			isa = PBXGroup;
+			children = (
+				0C80330E262DC1A600F48517 /* FollyPhoneTest */,
+				0C80332A262DC1A700F48517 /* FollyPhoneTestTests */,
+				0C803335262DC1A700F48517 /* FollyPhoneTestUITests */,
+				0C80330D262DC1A600F48517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C80330D262DC1A600F48517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C80330C262DC1A600F48517 /* FollyPhoneTest.app */,
+				0C803327262DC1A700F48517 /* FollyPhoneTestTests.xctest */,
+				0C803332262DC1A700F48517 /* FollyPhoneTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C80330E262DC1A600F48517 /* FollyPhoneTest */ = {
+			isa = PBXGroup;
+			children = (
+				0C8033FA262F5CB500F48517 /* fmt.xcframework */,
+				0C803390262DD70600F48517 /* libevent.xcframework */,
+				0C80337E262DD14800F48517 /* double-conversion.xcframework */,
+				0C803376262DD0A800F48517 /* gflags.xcframework */,
+				0C803366262DCD7D00F48517 /* glog.xcframework */,
+				0C80335C262DC9ED00F48517 /* boost.xcframework */,
+				0C8033D1262F217300F48517 /* folly.xcframework */,
+				0C80330F262DC1A600F48517 /* AppDelegate.h */,
+				0C803310262DC1A600F48517 /* AppDelegate.m */,
+				0C803315262DC1A600F48517 /* ViewController.h */,
+				0C803316262DC1A600F48517 /* ViewController.m */,
+				0C803352262DC64D00F48517 /* FollyExecutor.h */,
+				0C803353262DC64D00F48517 /* FollyExecutor.mm */,
+				0C8034752630A38E00F48517 /* Main.storyboard */,
+				0C80331B262DC1A700F48517 /* Assets.xcassets */,
+				0C80331D262DC1A700F48517 /* LaunchScreen.storyboard */,
+				0C803320262DC1A700F48517 /* Info.plist */,
+				0C803321262DC1A700F48517 /* main.m */,
+			);
+			path = FollyPhoneTest;
+			sourceTree = "<group>";
+		};
+		0C80332A262DC1A700F48517 /* FollyPhoneTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C80332B262DC1A700F48517 /* FollyPhoneTestTests.m */,
+				0C80332D262DC1A700F48517 /* Info.plist */,
+			);
+			path = FollyPhoneTestTests;
+			sourceTree = "<group>";
+		};
+		0C803335262DC1A700F48517 /* FollyPhoneTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C803336262DC1A700F48517 /* FollyPhoneTestUITests.m */,
+				0C803338262DC1A700F48517 /* Info.plist */,
+			);
+			path = FollyPhoneTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C80330B262DC1A600F48517 /* FollyPhoneTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C80333B262DC1A700F48517 /* Build configuration list for PBXNativeTarget "FollyPhoneTest" */;
+			buildPhases = (
+				0C803308262DC1A600F48517 /* Sources */,
+				0C803309262DC1A600F48517 /* Frameworks */,
+				0C80330A262DC1A600F48517 /* Resources */,
+				0C803363262DC9F200F48517 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollyPhoneTest;
+			productName = FollyPhoneTest;
+			productReference = 0C80330C262DC1A600F48517 /* FollyPhoneTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C803326262DC1A700F48517 /* FollyPhoneTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C80333E262DC1A700F48517 /* Build configuration list for PBXNativeTarget "FollyPhoneTestTests" */;
+			buildPhases = (
+				0C803323262DC1A700F48517 /* Sources */,
+				0C803324262DC1A700F48517 /* Frameworks */,
+				0C803325262DC1A700F48517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C803329262DC1A700F48517 /* PBXTargetDependency */,
+			);
+			name = FollyPhoneTestTests;
+			productName = FollyPhoneTestTests;
+			productReference = 0C803327262DC1A700F48517 /* FollyPhoneTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C803331262DC1A700F48517 /* FollyPhoneTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C803341262DC1A700F48517 /* Build configuration list for PBXNativeTarget "FollyPhoneTestUITests" */;
+			buildPhases = (
+				0C80332E262DC1A700F48517 /* Sources */,
+				0C80332F262DC1A700F48517 /* Frameworks */,
+				0C803330262DC1A700F48517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C803334262DC1A700F48517 /* PBXTargetDependency */,
+			);
+			name = FollyPhoneTestUITests;
+			productName = FollyPhoneTestUITests;
+			productReference = 0C803332262DC1A700F48517 /* FollyPhoneTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C803304262DC1A600F48517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0C80330B262DC1A600F48517 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0C803326262DC1A700F48517 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0C80330B262DC1A600F48517;
+					};
+					0C803331262DC1A700F48517 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0C80330B262DC1A600F48517;
+					};
+				};
+			};
+			buildConfigurationList = 0C803307262DC1A600F48517 /* Build configuration list for PBXProject "FollyPhoneTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C803303262DC1A600F48517;
+			productRefGroup = 0C80330D262DC1A600F48517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C80330B262DC1A600F48517 /* FollyPhoneTest */,
+				0C803326262DC1A700F48517 /* FollyPhoneTestTests */,
+				0C803331262DC1A700F48517 /* FollyPhoneTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C80330A262DC1A600F48517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8034762630A38E00F48517 /* Main.storyboard in Resources */,
+				0C80331F262DC1A700F48517 /* LaunchScreen.storyboard in Resources */,
+				0C80331C262DC1A700F48517 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C803325262DC1A700F48517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C803330262DC1A700F48517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C803308262DC1A600F48517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C803317262DC1A600F48517 /* ViewController.m in Sources */,
+				0C803311262DC1A600F48517 /* AppDelegate.m in Sources */,
+				0C803322262DC1A700F48517 /* main.m in Sources */,
+				0C803354262DC64D00F48517 /* FollyExecutor.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C803323262DC1A700F48517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80332C262DC1A700F48517 /* FollyPhoneTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C80332E262DC1A700F48517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C803337262DC1A700F48517 /* FollyPhoneTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C803329262DC1A700F48517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C80330B262DC1A600F48517 /* FollyPhoneTest */;
+			targetProxy = 0C803328262DC1A700F48517 /* PBXContainerItemProxy */;
+		};
+		0C803334262DC1A700F48517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C80330B262DC1A600F48517 /* FollyPhoneTest */;
+			targetProxy = 0C803333262DC1A700F48517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C80331D262DC1A700F48517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C80331E262DC1A700F48517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C803339262DC1A700F48517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C80333A262DC1A700F48517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C80333C262DC1A700F48517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8529D6RW3;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/glog.xcframework/Headers",
+					"$(SRCROOT)/gflags.xcframework/Headers",
+					"$(SRCROOT)/double-conversion.xcframework/Headers",
+					"$(SRCROOT)/boost.xcframework/Headers",
+					"$(SRCROOT)/folly.xcframework/Headers",
+				);
+				INFOPLIST_FILE = FollyPhoneTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/gflags.xcframework",
+					"$(SRCROOT)/folly.xcframework",
+					"$(SRCROOT)/glog.xcframework",
+					"$(SRCROOT)/double-conversion.xcframework",
+					"$(SRCROOT)/boost.xcframework",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitestar.FollyPhoneTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C80333D262DC1A700F48517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8529D6RW3;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/glog.xcframework/Headers",
+					"$(SRCROOT)/gflags.xcframework/Headers",
+					"$(SRCROOT)/double-conversion.xcframework/Headers",
+					"$(SRCROOT)/boost.xcframework/Headers",
+					"$(SRCROOT)/folly.xcframework/Headers",
+				);
+				INFOPLIST_FILE = FollyPhoneTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/gflags.xcframework",
+					"$(SRCROOT)/folly.xcframework",
+					"$(SRCROOT)/glog.xcframework",
+					"$(SRCROOT)/double-conversion.xcframework",
+					"$(SRCROOT)/boost.xcframework",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitestar.FollyPhoneTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C80333F262DC1A700F48517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8529D6RW3;
+				INFOPLIST_FILE = FollyPhoneTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitestar.FollyPhoneTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FollyPhoneTest.app/FollyPhoneTest";
+			};
+			name = Debug;
+		};
+		0C803340262DC1A700F48517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8529D6RW3;
+				INFOPLIST_FILE = FollyPhoneTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitestar.FollyPhoneTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FollyPhoneTest.app/FollyPhoneTest";
+			};
+			name = Release;
+		};
+		0C803342262DC1A700F48517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8529D6RW3;
+				INFOPLIST_FILE = FollyPhoneTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitestar.FollyPhoneTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FollyPhoneTest;
+			};
+			name = Debug;
+		};
+		0C803343262DC1A700F48517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8529D6RW3;
+				INFOPLIST_FILE = FollyPhoneTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitestar.FollyPhoneTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FollyPhoneTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C803307262DC1A600F48517 /* Build configuration list for PBXProject "FollyPhoneTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C803339262DC1A700F48517 /* Debug */,
+				0C80333A262DC1A700F48517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C80333B262DC1A700F48517 /* Build configuration list for PBXNativeTarget "FollyPhoneTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C80333C262DC1A700F48517 /* Debug */,
+				0C80333D262DC1A700F48517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C80333E262DC1A700F48517 /* Build configuration list for PBXNativeTarget "FollyPhoneTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C80333F262DC1A700F48517 /* Debug */,
+				0C803340262DC1A700F48517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C803341262DC1A700F48517 /* Build configuration list for PBXNativeTarget "FollyPhoneTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C803342262DC1A700F48517 /* Debug */,
+				0C803343262DC1A700F48517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C803304262DC1A600F48517 /* Project object */;
+}

@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0C07EB1826330AF000DC2FF2 /* Random-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Random-inl.h"; sourceTree = "<group>"; };
+		0C07EB1926330AF000DC2FF2 /* Demangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demangle.cpp; sourceTree = "<group>"; };
+		0C07EB1A26330AF000DC2FF2 /* ExceptionString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionString.h; sourceTree = "<group>"; };
+		0C07EB1B26330AF000DC2FF2 /* Varint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Varint.h; sourceTree = "<group>"; };
+		0C07EB1C26330AF000DC2FF2 /* Format-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Format-inl.h"; sourceTree = "<group>"; };
+		0C07EB1D26330AF000DC2FF2 /* init */ = {isa = PBXFileReference; lastKnownFileType = folder; path = init; sourceTree = "<group>"; };
+		0C07EB1E26330AF000DC2FF2 /* DefaultKeepAliveExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultKeepAliveExecutor.h; sourceTree = "<group>"; };
+		0C07EB1F26330AF000DC2FF2 /* Executor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Executor.cpp; sourceTree = "<group>"; };
+		0C07EB2026330AF000DC2FF2 /* SpinLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinLock.h; sourceTree = "<group>"; };
+		0C07EB2126330AF000DC2FF2 /* UTF8String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTF8String.h; sourceTree = "<group>"; };
+		0C07EB2226330AF000DC2FF2 /* MapUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapUtil.h; sourceTree = "<group>"; };
+		0C07EB2326330AF000DC2FF2 /* VirtualExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualExecutor.h; sourceTree = "<group>"; };
+		0C07EB2426330AF000DC2FF2 /* Synchronized.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Synchronized.h; sourceTree = "<group>"; };
+		0C07EB2526330AF000DC2FF2 /* ConcurrentSkipList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrentSkipList.h; sourceTree = "<group>"; };
+		0C07EB2626330AF000DC2FF2 /* MicroLock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MicroLock.cpp; sourceTree = "<group>"; };
+		0C07EB2726330AF000DC2FF2 /* tracing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tracing; sourceTree = "<group>"; };
+		0C07EB2826330AF000DC2FF2 /* Try.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Try.cpp; sourceTree = "<group>"; };
+		0C07EB2926330AF000DC2FF2 /* experimental */ = {isa = PBXFileReference; lastKnownFileType = folder; path = experimental; sourceTree = "<group>"; };
+		0C07EB2A26330AF000DC2FF2 /* MicroLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroLock.h; sourceTree = "<group>"; };
+		0C07EB2B26330AF000DC2FF2 /* ExceptionWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionWrapper.h; sourceTree = "<group>"; };
+		0C07EB2C26330AF000DC2FF2 /* Singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
+		0C07EB2D26330AF000DC2FF2 /* ssl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ssl; sourceTree = "<group>"; };
+		0C07EB2E26330AF000DC2FF2 /* Range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		0C07EB2F26330AF000DC2FF2 /* DynamicConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicConverter.h; sourceTree = "<group>"; };
+		0C07EB3026330AF000DC2FF2 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		0C07EB3126330AF000DC2FF2 /* Traits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Traits.h; sourceTree = "<group>"; };
+		0C07EB3226330AF000DC2FF2 /* IntrusiveList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntrusiveList.h; sourceTree = "<group>"; };
+		0C07EB3326330AF000DC2FF2 /* CppAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppAttributes.h; sourceTree = "<group>"; };
+		0C07EB3426330AF000DC2FF2 /* net */ = {isa = PBXFileReference; lastKnownFileType = folder; path = net; sourceTree = "<group>"; };
+		0C07EB3526330AF000DC2FF2 /* SocketAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketAddress.h; sourceTree = "<group>"; };
+		0C07EB3626330AF000DC2FF2 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		0C07EB3726330AF000DC2FF2 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		0C07EB3826330AF000DC2FF2 /* ScopeGuard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScopeGuard.cpp; sourceTree = "<group>"; };
+		0C07EB3926330AF000DC2FF2 /* TimeoutQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeoutQueue.cpp; sourceTree = "<group>"; };
+		0C07EB3A26330AF000DC2FF2 /* futures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = futures; sourceTree = "<group>"; };
+		0C07EB3B26330AF000DC2FF2 /* SharedMutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SharedMutex.cpp; sourceTree = "<group>"; };
+		0C07EB3C26330AF000DC2FF2 /* memory */ = {isa = PBXFileReference; lastKnownFileType = folder; path = memory; sourceTree = "<group>"; };
+		0C07EB3D26330AF000DC2FF2 /* Format.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Format.cpp; sourceTree = "<group>"; };
+		0C07EB3E26330AF000DC2FF2 /* IPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		0C07EB3F26330AF000DC2FF2 /* Demangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demangle.h; sourceTree = "<group>"; };
+		0C07EB4026330AF000DC2FF2 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		0C07EB4126330AF000DC2FF2 /* json_patch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json_patch.cpp; sourceTree = "<group>"; };
+		0C07EB4226330AF000DC2FF2 /* synchronization */ = {isa = PBXFileReference; lastKnownFileType = folder; path = synchronization; sourceTree = "<group>"; };
+		0C07EB4326330AF000DC2FF2 /* GLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLog.h; sourceTree = "<group>"; };
+		0C07EB4426330AF000DC2FF2 /* ThreadCachedInt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadCachedInt.h; sourceTree = "<group>"; };
+		0C07EB4526330AF000DC2FF2 /* chrono */ = {isa = PBXFileReference; lastKnownFileType = folder; path = chrono; sourceTree = "<group>"; };
+		0C07EB4626330AF000DC2FF2 /* AtomicIntrusiveLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicIntrusiveLinkedList.h; sourceTree = "<group>"; };
+		0C07EB4726330AF000DC2FF2 /* ScopeGuard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScopeGuard.h; sourceTree = "<group>"; };
+		0C07EB4826330AF000DC2FF2 /* CpuId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CpuId.h; sourceTree = "<group>"; };
+		0C07EB4926330AF000DC2FF2 /* python */ = {isa = PBXFileReference; lastKnownFileType = folder; path = python; sourceTree = "<group>"; };
+		0C07EB4A26330AF000DC2FF2 /* hash */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hash; sourceTree = "<group>"; };
+		0C07EB4B26330AF000DC2FF2 /* ProducerConsumerQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProducerConsumerQueue.h; sourceTree = "<group>"; };
+		0C07EB4C26330AF000DC2FF2 /* small_vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = small_vector.h; sourceTree = "<group>"; };
+		0C07EB4D26330AF000DC2FF2 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		0C07EB4E26330AF000DC2FF2 /* CMakeFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CMakeFiles; sourceTree = "<group>"; };
+		0C07EB4F26330AF000DC2FF2 /* Chrono.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chrono.h; sourceTree = "<group>"; };
+		0C07EB5026330AF000DC2FF2 /* Uri.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Uri.h; sourceTree = "<group>"; };
+		0C07EB5126330AF000DC2FF2 /* RWSpinLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSpinLock.h; sourceTree = "<group>"; };
+		0C07EB5226330AF000DC2FF2 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0C07EB5326330AF000DC2FF2 /* Replaceable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Replaceable.h; sourceTree = "<group>"; };
+		0C07EB5426330AF000DC2FF2 /* IPAddress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IPAddress.cpp; sourceTree = "<group>"; };
+		0C07EB5526330AF000DC2FF2 /* sorted_vector_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sorted_vector_types.h; sourceTree = "<group>"; };
+		0C07EB5626330AF000DC2FF2 /* Random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		0C07EB5726330AF000DC2FF2 /* CancellationToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CancellationToken.h; sourceTree = "<group>"; };
+		0C07EB5826330AF000DC2FF2 /* dynamic-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dynamic-inl.h"; sourceTree = "<group>"; };
+		0C07EB5926330AF000DC2FF2 /* MacAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacAddress.h; sourceTree = "<group>"; };
+		0C07EB5A26330AF000DC2FF2 /* FileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		0C07EB5B26330AF000DC2FF2 /* fibers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fibers; sourceTree = "<group>"; };
+		0C07EB5C26330AF000DC2FF2 /* ThreadLocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadLocal.h; sourceTree = "<group>"; };
+		0C07EB5D26330AF000DC2FF2 /* Singleton-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Singleton-inl.h"; sourceTree = "<group>"; };
+		0C07EB5E26330AF000DC2FF2 /* Overload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Overload.h; sourceTree = "<group>"; };
+		0C07EB5F26330AF000DC2FF2 /* ConstructorCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstructorCallback.h; sourceTree = "<group>"; };
+		0C07EB6026330AF000DC2FF2 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		0C07EB6126330AF000DC2FF2 /* ConcurrentLazy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrentLazy.h; sourceTree = "<group>"; };
+		0C07EB6226330AF000DC2FF2 /* MacAddress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MacAddress.cpp; sourceTree = "<group>"; };
+		0C07EB6326330AF000DC2FF2 /* IPAddressException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddressException.h; sourceTree = "<group>"; };
+		0C07EB6426330AF000DC2FF2 /* Fingerprint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fingerprint.cpp; sourceTree = "<group>"; };
+		0C07EB6526330AF000DC2FF2 /* ConcurrentSkipList-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConcurrentSkipList-inl.h"; sourceTree = "<group>"; };
+		0C07EB6626330AF000DC2FF2 /* ExceptionWrapper-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExceptionWrapper-inl.h"; sourceTree = "<group>"; };
+		0C07EB6726330AF000DC2FF2 /* io */ = {isa = PBXFileReference; lastKnownFileType = folder; path = io; sourceTree = "<group>"; };
+		0C07EB6826330AF000DC2FF2 /* FormatArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormatArg.h; sourceTree = "<group>"; };
+		0C07EB6926330AF000DC2FF2 /* cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		0C07EB6A26330AF000DC2FF2 /* PackedSyncPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackedSyncPtr.h; sourceTree = "<group>"; };
+		0C07EB6B26330AF000DC2FF2 /* Benchmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Benchmark.cpp; sourceTree = "<group>"; };
+		0C07EB6C26330AF000DC2FF2 /* Unit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		0C07EB6D26330AF000DC2FF2 /* dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynamic.h; sourceTree = "<group>"; };
+		0C07EB6E26330AF000DC2FF2 /* CancellationToken.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CancellationToken.cpp; sourceTree = "<group>"; };
+		0C07EB6F26330AF000DC2FF2 /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		0C07EB7026330AF000DC2FF2 /* IPAddressV4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddressV4.h; sourceTree = "<group>"; };
+		0C07EB7126330AF000DC2FF2 /* MPMCPipeline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMCPipeline.h; sourceTree = "<group>"; };
+		0C07EB7226330AF000DC2FF2 /* ConstexprMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstexprMath.h; sourceTree = "<group>"; };
+		0C07EB7326330AF000DC2FF2 /* Uri.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Uri.cpp; sourceTree = "<group>"; };
+		0C07EB7426330AF000DC2FF2 /* stop_watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stop_watch.h; sourceTree = "<group>"; };
+		0C07EB7526330AF000DC2FF2 /* Try-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Try-inl.h"; sourceTree = "<group>"; };
+		0C07EB7626330AF000DC2FF2 /* GroupVarint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupVarint.cpp; sourceTree = "<group>"; };
+		0C07EB7726330AF000DC2FF2 /* TokenBucket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenBucket.h; sourceTree = "<group>"; };
+		0C07EB7826330AF000DC2FF2 /* MicroSpinLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroSpinLock.h; sourceTree = "<group>"; };
+		0C07EB7926330AF000DC2FF2 /* SingletonThreadLocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonThreadLocal.h; sourceTree = "<group>"; };
+		0C07EB7A26330AF000DC2FF2 /* Optional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Optional.h; sourceTree = "<group>"; };
+		0C07EB7B26330AF000DC2FF2 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		0C07EB7C26330AF000DC2FF2 /* json_patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_patch.h; sourceTree = "<group>"; };
+		0C07EB7D26330AF000DC2FF2 /* gen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gen; sourceTree = "<group>"; };
+		0C07EB7E26330AF000DC2FF2 /* dynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dynamic.cpp; sourceTree = "<group>"; };
+		0C07EB7F26330AF000DC2FF2 /* json_pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json_pointer.h; sourceTree = "<group>"; };
+		0C07EB8026330AF000DC2FF2 /* PolyException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolyException.h; sourceTree = "<group>"; };
+		0C07EB8126330AF000DC2FF2 /* FBVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBVector.h; sourceTree = "<group>"; };
+		0C07EB8226330AF000DC2FF2 /* CPortability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPortability.h; sourceTree = "<group>"; };
+		0C07EB8326330AF000DC2FF2 /* lang */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lang; sourceTree = "<group>"; };
+		0C07EB8426330AF000DC2FF2 /* Unicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unicode.h; sourceTree = "<group>"; };
+		0C07EB8526330AF000DC2FF2 /* DiscriminatedPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscriminatedPtr.h; sourceTree = "<group>"; };
+		0C07EB8626330AF000DC2FF2 /* container */ = {isa = PBXFileReference; lastKnownFileType = folder; path = container; sourceTree = "<group>"; };
+		0C07EB8726330AF000DC2FF2 /* concurrency */ = {isa = PBXFileReference; lastKnownFileType = folder; path = concurrency; sourceTree = "<group>"; };
+		0C07EB8826330AF000DC2FF2 /* system */ = {isa = PBXFileReference; lastKnownFileType = folder; path = system; sourceTree = "<group>"; };
+		0C07EB8926330AF000DC2FF2 /* Padded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Padded.h; sourceTree = "<group>"; };
+		0C07EB8A26330AF000DC2FF2 /* detail */ = {isa = PBXFileReference; lastKnownFileType = folder; path = detail; sourceTree = "<group>"; };
+		0C07EB8B26330AF000DC2FF2 /* Portability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portability.h; sourceTree = "<group>"; };
+		0C07EB8C26330AF000DC2FF2 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		0C07EB8D26330AF000DC2FF2 /* IndexedMemPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexedMemPool.h; sourceTree = "<group>"; };
+		0C07EB8E26330AF000DC2FF2 /* memcpy.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = memcpy.S; sourceTree = "<group>"; };
+		0C07EB8F26330AF000DC2FF2 /* Likely.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Likely.h; sourceTree = "<group>"; };
+		0C07EB9026330AF000DC2FF2 /* Executor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Executor.h; sourceTree = "<group>"; };
+		0C07EB9126330AF000DC2FF2 /* support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = support; sourceTree = "<group>"; };
+		0C07EB9226330AF000DC2FF2 /* VERSION */ = {isa = PBXFileReference; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		0C07EB9326330AF000DC2FF2 /* executors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = executors; sourceTree = "<group>"; };
+		0C07EB9426330AF000DC2FF2 /* json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		0C07EB9526330AF000DC2FF2 /* Expected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expected.h; sourceTree = "<group>"; };
+		0C07EB9626330AF000DC2FF2 /* AtomicLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicLinkedList.h; sourceTree = "<group>"; };
+		0C07EB9726330AF000DC2FF2 /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; path = static; sourceTree = "<group>"; };
+		0C07EB9826330AF000DC2FF2 /* ClockGettimeWrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockGettimeWrappers.h; sourceTree = "<group>"; };
+		0C07EB9926330AF000DC2FF2 /* FBString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBString.h; sourceTree = "<group>"; };
+		0C07EB9A26330AF000DC2FF2 /* AtomicHashArray-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtomicHashArray-inl.h"; sourceTree = "<group>"; };
+		0C07EB9B26330AF000DC2FF2 /* Subprocess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Subprocess.cpp; sourceTree = "<group>"; };
+		0C07EB9C26330AF000DC2FF2 /* ExceptionString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionString.cpp; sourceTree = "<group>"; };
+		0C07EB9D26330AF000DC2FF2 /* compression */ = {isa = PBXFileReference; lastKnownFileType = folder; path = compression; sourceTree = "<group>"; };
+		0C07EB9E26330AF000DC2FF2 /* Conv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Conv.cpp; sourceTree = "<group>"; };
+		0C07EB9F26330AF000DC2FF2 /* SocketAddress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SocketAddress.cpp; sourceTree = "<group>"; };
+		0C07EBA026330AF000DC2FF2 /* ExceptionWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionWrapper.cpp; sourceTree = "<group>"; };
+		0C07EBA126330AF000DC2FF2 /* Lazy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lazy.h; sourceTree = "<group>"; };
+		0C07EBA226330AF000DC2FF2 /* String-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "String-inl.h"; sourceTree = "<group>"; };
+		0C07EBA326330AF000DC2FF2 /* portability */ = {isa = PBXFileReference; lastKnownFileType = folder; path = portability; sourceTree = "<group>"; };
+		0C07EBA426330AF000DC2FF2 /* json_pointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json_pointer.cpp; sourceTree = "<group>"; };
+		0C07EBA526330AF000DC2FF2 /* Indestructible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Indestructible.h; sourceTree = "<group>"; };
+		0C07EBA626330AF000DC2FF2 /* Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		0C07EBA726330AF000DC2FF2 /* Memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
+		0C07EBA826330AF000DC2FF2 /* Poly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Poly.h; sourceTree = "<group>"; };
+		0C07EBA926330AF000DC2FF2 /* ConcurrentBitSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrentBitSet.h; sourceTree = "<group>"; };
+		0C07EBAA26330AF000DC2FF2 /* MoveWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveWrapper.h; sourceTree = "<group>"; };
+		0C07EBAB26330AF000DC2FF2 /* ClockGettimeWrappers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClockGettimeWrappers.cpp; sourceTree = "<group>"; };
+		0C07EBAC26330AF000DC2FF2 /* external */ = {isa = PBXFileReference; lastKnownFileType = folder; path = external; sourceTree = "<group>"; };
+		0C07EBAD26330AF000DC2FF2 /* Uri-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Uri-inl.h"; sourceTree = "<group>"; };
+		0C07EBAE26330AF000DC2FF2 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		0C07EBAF26330AF000DC2FF2 /* TimeoutQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeoutQueue.h; sourceTree = "<group>"; };
+		0C07EBB026330AF000DC2FF2 /* FormatTraits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormatTraits.h; sourceTree = "<group>"; };
+		0C07EBB126330AF000DC2FF2 /* folly-config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "folly-config.h"; sourceTree = "<group>"; };
+		0C07EBB226330AF000DC2FF2 /* Benchmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Benchmark.h; sourceTree = "<group>"; };
+		0C07EBB326330AF000DC2FF2 /* GroupVarint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupVarint.h; sourceTree = "<group>"; };
+		0C07EBB426330AF000DC2FF2 /* AtomicHashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicHashMap.h; sourceTree = "<group>"; };
+		0C07EBB526330AF000DC2FF2 /* FileUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtil.cpp; sourceTree = "<group>"; };
+		0C07EBB626330AF000DC2FF2 /* CancellationToken-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CancellationToken-inl.h"; sourceTree = "<group>"; };
+		0C07EBB726330AF000DC2FF2 /* SharedMutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedMutex.h; sourceTree = "<group>"; };
+		0C07EBB826330AF000DC2FF2 /* Format.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Format.h; sourceTree = "<group>"; };
+		0C07EBB926330AF000DC2FF2 /* BenchmarkUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenchmarkUtil.h; sourceTree = "<group>"; };
+		0C07EBBA26330AF000DC2FF2 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		0C07EBBB26330AF000DC2FF2 /* MPMCQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMCQueue.h; sourceTree = "<group>"; };
+		0C07EBBC26330AF000DC2FF2 /* Poly-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poly-inl.h"; sourceTree = "<group>"; };
+		0C07EBBD26330AF000DC2FF2 /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		0C07EBBE26330AF000DC2FF2 /* AtomicHashMap-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtomicHashMap-inl.h"; sourceTree = "<group>"; };
+		0C07EBBF26330AF000DC2FF2 /* LockTraits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTraits.h; sourceTree = "<group>"; };
+		0C07EBC026330AF000DC2FF2 /* IPAddressV4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IPAddressV4.cpp; sourceTree = "<group>"; };
+		0C07EBC126330AF000DC2FF2 /* FixedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixedString.h; sourceTree = "<group>"; };
+		0C07EBC226330AF000DC2FF2 /* Subprocess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subprocess.h; sourceTree = "<group>"; };
+		0C07EBC326330AF000DC2FF2 /* IPAddressV6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddressV6.h; sourceTree = "<group>"; };
+		0C07EBC426330AF000DC2FF2 /* json.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json.cpp; sourceTree = "<group>"; };
+		0C07EBC526330AF000DC2FF2 /* Fingerprint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fingerprint.h; sourceTree = "<group>"; };
+		0C07EBC626330AF000DC2FF2 /* logging */ = {isa = PBXFileReference; lastKnownFileType = folder; path = logging; sourceTree = "<group>"; };
+		0C07EBC726330AF000DC2FF2 /* AtomicUnorderedMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicUnorderedMap.h; sourceTree = "<group>"; };
+		0C07EBC826330AF000DC2FF2 /* Try.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Try.h; sourceTree = "<group>"; };
+		0C07EBC926330AF000DC2FF2 /* Conv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conv.h; sourceTree = "<group>"; };
+		0C07EBCA26330AF000DC2FF2 /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		0C07EBCB26330AF000DC2FF2 /* functional */ = {isa = PBXFileReference; lastKnownFileType = folder; path = functional; sourceTree = "<group>"; };
+		0C07EBCC26330AF000DC2FF2 /* Function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		0C07EBCD26330AF000DC2FF2 /* stats */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stats; sourceTree = "<group>"; };
+		0C07EBCE26330AF000DC2FF2 /* Unicode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unicode.cpp; sourceTree = "<group>"; };
+		0C07EBCF26330AF000DC2FF2 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		0C07EBD026330AF000DC2FF2 /* Bits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bits.h; sourceTree = "<group>"; };
+		0C07EBD126330AF000DC2FF2 /* AtomicHashArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicHashArray.h; sourceTree = "<group>"; };
+		0C07EBD226330AF000DC2FF2 /* SynchronizedPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedPtr.h; sourceTree = "<group>"; };
+		0C07EBD326330AF000DC2FF2 /* Preprocessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Preprocessor.h; sourceTree = "<group>"; };
+		0C07EBD426330AF000DC2FF2 /* poly */ = {isa = PBXFileReference; lastKnownFileType = folder; path = poly; sourceTree = "<group>"; };
+		0C07EBD526330AF000DC2FF2 /* String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		0C07EBD626330AF000DC2FF2 /* IPAddressV6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IPAddressV6.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C07EB1226330AF000DC2FF2 = {
+			isa = PBXGroup;
+			children = (
+				0C07EB1826330AF000DC2FF2 /* Random-inl.h */,
+				0C07EB1926330AF000DC2FF2 /* Demangle.cpp */,
+				0C07EB1A26330AF000DC2FF2 /* ExceptionString.h */,
+				0C07EB1B26330AF000DC2FF2 /* Varint.h */,
+				0C07EB1C26330AF000DC2FF2 /* Format-inl.h */,
+				0C07EB1D26330AF000DC2FF2 /* init */,
+				0C07EB1E26330AF000DC2FF2 /* DefaultKeepAliveExecutor.h */,
+				0C07EB1F26330AF000DC2FF2 /* Executor.cpp */,
+				0C07EB2026330AF000DC2FF2 /* SpinLock.h */,
+				0C07EB2126330AF000DC2FF2 /* UTF8String.h */,
+				0C07EB2226330AF000DC2FF2 /* MapUtil.h */,
+				0C07EB2326330AF000DC2FF2 /* VirtualExecutor.h */,
+				0C07EB2426330AF000DC2FF2 /* Synchronized.h */,
+				0C07EB2526330AF000DC2FF2 /* ConcurrentSkipList.h */,
+				0C07EB2626330AF000DC2FF2 /* MicroLock.cpp */,
+				0C07EB2726330AF000DC2FF2 /* tracing */,
+				0C07EB2826330AF000DC2FF2 /* Try.cpp */,
+				0C07EB2926330AF000DC2FF2 /* experimental */,
+				0C07EB2A26330AF000DC2FF2 /* MicroLock.h */,
+				0C07EB2B26330AF000DC2FF2 /* ExceptionWrapper.h */,
+				0C07EB2C26330AF000DC2FF2 /* Singleton.cpp */,
+				0C07EB2D26330AF000DC2FF2 /* ssl */,
+				0C07EB2E26330AF000DC2FF2 /* Range.h */,
+				0C07EB2F26330AF000DC2FF2 /* DynamicConverter.h */,
+				0C07EB3026330AF000DC2FF2 /* tools */,
+				0C07EB3126330AF000DC2FF2 /* Traits.h */,
+				0C07EB3226330AF000DC2FF2 /* IntrusiveList.h */,
+				0C07EB3326330AF000DC2FF2 /* CppAttributes.h */,
+				0C07EB3426330AF000DC2FF2 /* net */,
+				0C07EB3526330AF000DC2FF2 /* SocketAddress.h */,
+				0C07EB3626330AF000DC2FF2 /* CMakeLists.txt */,
+				0C07EB3726330AF000DC2FF2 /* .DS_Store */,
+				0C07EB3826330AF000DC2FF2 /* ScopeGuard.cpp */,
+				0C07EB3926330AF000DC2FF2 /* TimeoutQueue.cpp */,
+				0C07EB3A26330AF000DC2FF2 /* futures */,
+				0C07EB3B26330AF000DC2FF2 /* SharedMutex.cpp */,
+				0C07EB3C26330AF000DC2FF2 /* memory */,
+				0C07EB3D26330AF000DC2FF2 /* Format.cpp */,
+				0C07EB3E26330AF000DC2FF2 /* IPAddress.h */,
+				0C07EB3F26330AF000DC2FF2 /* Demangle.h */,
+				0C07EB4026330AF000DC2FF2 /* test */,
+				0C07EB4126330AF000DC2FF2 /* json_patch.cpp */,
+				0C07EB4226330AF000DC2FF2 /* synchronization */,
+				0C07EB4326330AF000DC2FF2 /* GLog.h */,
+				0C07EB4426330AF000DC2FF2 /* ThreadCachedInt.h */,
+				0C07EB4526330AF000DC2FF2 /* chrono */,
+				0C07EB4626330AF000DC2FF2 /* AtomicIntrusiveLinkedList.h */,
+				0C07EB4726330AF000DC2FF2 /* ScopeGuard.h */,
+				0C07EB4826330AF000DC2FF2 /* CpuId.h */,
+				0C07EB4926330AF000DC2FF2 /* python */,
+				0C07EB4A26330AF000DC2FF2 /* hash */,
+				0C07EB4B26330AF000DC2FF2 /* ProducerConsumerQueue.h */,
+				0C07EB4C26330AF000DC2FF2 /* small_vector.h */,
+				0C07EB4D26330AF000DC2FF2 /* Singleton.h */,
+				0C07EB4E26330AF000DC2FF2 /* CMakeFiles */,
+				0C07EB4F26330AF000DC2FF2 /* Chrono.h */,
+				0C07EB5026330AF000DC2FF2 /* Uri.h */,
+				0C07EB5126330AF000DC2FF2 /* RWSpinLock.h */,
+				0C07EB5226330AF000DC2FF2 /* Makefile */,
+				0C07EB5326330AF000DC2FF2 /* Replaceable.h */,
+				0C07EB5426330AF000DC2FF2 /* IPAddress.cpp */,
+				0C07EB5526330AF000DC2FF2 /* sorted_vector_types.h */,
+				0C07EB5626330AF000DC2FF2 /* Random.cpp */,
+				0C07EB5726330AF000DC2FF2 /* CancellationToken.h */,
+				0C07EB5826330AF000DC2FF2 /* dynamic-inl.h */,
+				0C07EB5926330AF000DC2FF2 /* MacAddress.h */,
+				0C07EB5A26330AF000DC2FF2 /* FileUtil.h */,
+				0C07EB5B26330AF000DC2FF2 /* fibers */,
+				0C07EB5C26330AF000DC2FF2 /* ThreadLocal.h */,
+				0C07EB5D26330AF000DC2FF2 /* Singleton-inl.h */,
+				0C07EB5E26330AF000DC2FF2 /* Overload.h */,
+				0C07EB5F26330AF000DC2FF2 /* ConstructorCallback.h */,
+				0C07EB6026330AF000DC2FF2 /* File.h */,
+				0C07EB6126330AF000DC2FF2 /* ConcurrentLazy.h */,
+				0C07EB6226330AF000DC2FF2 /* MacAddress.cpp */,
+				0C07EB6326330AF000DC2FF2 /* IPAddressException.h */,
+				0C07EB6426330AF000DC2FF2 /* Fingerprint.cpp */,
+				0C07EB6526330AF000DC2FF2 /* ConcurrentSkipList-inl.h */,
+				0C07EB6626330AF000DC2FF2 /* ExceptionWrapper-inl.h */,
+				0C07EB6726330AF000DC2FF2 /* io */,
+				0C07EB6826330AF000DC2FF2 /* FormatArg.h */,
+				0C07EB6926330AF000DC2FF2 /* cmake_install.cmake */,
+				0C07EB6A26330AF000DC2FF2 /* PackedSyncPtr.h */,
+				0C07EB6B26330AF000DC2FF2 /* Benchmark.cpp */,
+				0C07EB6C26330AF000DC2FF2 /* Unit.h */,
+				0C07EB6D26330AF000DC2FF2 /* dynamic.h */,
+				0C07EB6E26330AF000DC2FF2 /* CancellationToken.cpp */,
+				0C07EB6F26330AF000DC2FF2 /* String.cpp */,
+				0C07EB7026330AF000DC2FF2 /* IPAddressV4.h */,
+				0C07EB7126330AF000DC2FF2 /* MPMCPipeline.h */,
+				0C07EB7226330AF000DC2FF2 /* ConstexprMath.h */,
+				0C07EB7326330AF000DC2FF2 /* Uri.cpp */,
+				0C07EB7426330AF000DC2FF2 /* stop_watch.h */,
+				0C07EB7526330AF000DC2FF2 /* Try-inl.h */,
+				0C07EB7626330AF000DC2FF2 /* GroupVarint.cpp */,
+				0C07EB7726330AF000DC2FF2 /* TokenBucket.h */,
+				0C07EB7826330AF000DC2FF2 /* MicroSpinLock.h */,
+				0C07EB7926330AF000DC2FF2 /* SingletonThreadLocal.h */,
+				0C07EB7A26330AF000DC2FF2 /* Optional.h */,
+				0C07EB7B26330AF000DC2FF2 /* docs */,
+				0C07EB7C26330AF000DC2FF2 /* json_patch.h */,
+				0C07EB7D26330AF000DC2FF2 /* gen */,
+				0C07EB7E26330AF000DC2FF2 /* dynamic.cpp */,
+				0C07EB7F26330AF000DC2FF2 /* json_pointer.h */,
+				0C07EB8026330AF000DC2FF2 /* PolyException.h */,
+				0C07EB8126330AF000DC2FF2 /* FBVector.h */,
+				0C07EB8226330AF000DC2FF2 /* CPortability.h */,
+				0C07EB8326330AF000DC2FF2 /* lang */,
+				0C07EB8426330AF000DC2FF2 /* Unicode.h */,
+				0C07EB8526330AF000DC2FF2 /* DiscriminatedPtr.h */,
+				0C07EB8626330AF000DC2FF2 /* container */,
+				0C07EB8726330AF000DC2FF2 /* concurrency */,
+				0C07EB8826330AF000DC2FF2 /* system */,
+				0C07EB8926330AF000DC2FF2 /* Padded.h */,
+				0C07EB8A26330AF000DC2FF2 /* detail */,
+				0C07EB8B26330AF000DC2FF2 /* Portability.h */,
+				0C07EB8C26330AF000DC2FF2 /* File.cpp */,
+				0C07EB8D26330AF000DC2FF2 /* IndexedMemPool.h */,
+				0C07EB8E26330AF000DC2FF2 /* memcpy.S */,
+				0C07EB8F26330AF000DC2FF2 /* Likely.h */,
+				0C07EB9026330AF000DC2FF2 /* Executor.h */,
+				0C07EB9126330AF000DC2FF2 /* support */,
+				0C07EB9226330AF000DC2FF2 /* VERSION */,
+				0C07EB9326330AF000DC2FF2 /* executors */,
+				0C07EB9426330AF000DC2FF2 /* json.h */,
+				0C07EB9526330AF000DC2FF2 /* Expected.h */,
+				0C07EB9626330AF000DC2FF2 /* AtomicLinkedList.h */,
+				0C07EB9726330AF000DC2FF2 /* static */,
+				0C07EB9826330AF000DC2FF2 /* ClockGettimeWrappers.h */,
+				0C07EB9926330AF000DC2FF2 /* FBString.h */,
+				0C07EB9A26330AF000DC2FF2 /* AtomicHashArray-inl.h */,
+				0C07EB9B26330AF000DC2FF2 /* Subprocess.cpp */,
+				0C07EB9C26330AF000DC2FF2 /* ExceptionString.cpp */,
+				0C07EB9D26330AF000DC2FF2 /* compression */,
+				0C07EB9E26330AF000DC2FF2 /* Conv.cpp */,
+				0C07EB9F26330AF000DC2FF2 /* SocketAddress.cpp */,
+				0C07EBA026330AF000DC2FF2 /* ExceptionWrapper.cpp */,
+				0C07EBA126330AF000DC2FF2 /* Lazy.h */,
+				0C07EBA226330AF000DC2FF2 /* String-inl.h */,
+				0C07EBA326330AF000DC2FF2 /* portability */,
+				0C07EBA426330AF000DC2FF2 /* json_pointer.cpp */,
+				0C07EBA526330AF000DC2FF2 /* Indestructible.h */,
+				0C07EBA626330AF000DC2FF2 /* Math.h */,
+				0C07EBA726330AF000DC2FF2 /* Memory.h */,
+				0C07EBA826330AF000DC2FF2 /* Poly.h */,
+				0C07EBA926330AF000DC2FF2 /* ConcurrentBitSet.h */,
+				0C07EBAA26330AF000DC2FF2 /* MoveWrapper.h */,
+				0C07EBAB26330AF000DC2FF2 /* ClockGettimeWrappers.cpp */,
+				0C07EBAC26330AF000DC2FF2 /* external */,
+				0C07EBAD26330AF000DC2FF2 /* Uri-inl.h */,
+				0C07EBAE26330AF000DC2FF2 /* build */,
+				0C07EBAF26330AF000DC2FF2 /* TimeoutQueue.h */,
+				0C07EBB026330AF000DC2FF2 /* FormatTraits.h */,
+				0C07EBB126330AF000DC2FF2 /* folly-config.h */,
+				0C07EBB226330AF000DC2FF2 /* Benchmark.h */,
+				0C07EBB326330AF000DC2FF2 /* GroupVarint.h */,
+				0C07EBB426330AF000DC2FF2 /* AtomicHashMap.h */,
+				0C07EBB526330AF000DC2FF2 /* FileUtil.cpp */,
+				0C07EBB626330AF000DC2FF2 /* CancellationToken-inl.h */,
+				0C07EBB726330AF000DC2FF2 /* SharedMutex.h */,
+				0C07EBB826330AF000DC2FF2 /* Format.h */,
+				0C07EBB926330AF000DC2FF2 /* BenchmarkUtil.h */,
+				0C07EBBA26330AF000DC2FF2 /* Utility.h */,
+				0C07EBBB26330AF000DC2FF2 /* MPMCQueue.h */,
+				0C07EBBC26330AF000DC2FF2 /* Poly-inl.h */,
+				0C07EBBD26330AF000DC2FF2 /* Exception.h */,
+				0C07EBBE26330AF000DC2FF2 /* AtomicHashMap-inl.h */,
+				0C07EBBF26330AF000DC2FF2 /* LockTraits.h */,
+				0C07EBC026330AF000DC2FF2 /* IPAddressV4.cpp */,
+				0C07EBC126330AF000DC2FF2 /* FixedString.h */,
+				0C07EBC226330AF000DC2FF2 /* Subprocess.h */,
+				0C07EBC326330AF000DC2FF2 /* IPAddressV6.h */,
+				0C07EBC426330AF000DC2FF2 /* json.cpp */,
+				0C07EBC526330AF000DC2FF2 /* Fingerprint.h */,
+				0C07EBC626330AF000DC2FF2 /* logging */,
+				0C07EBC726330AF000DC2FF2 /* AtomicUnorderedMap.h */,
+				0C07EBC826330AF000DC2FF2 /* Try.h */,
+				0C07EBC926330AF000DC2FF2 /* Conv.h */,
+				0C07EBCA26330AF000DC2FF2 /* Hash.h */,
+				0C07EBCB26330AF000DC2FF2 /* functional */,
+				0C07EBCC26330AF000DC2FF2 /* Function.h */,
+				0C07EBCD26330AF000DC2FF2 /* stats */,
+				0C07EBCE26330AF000DC2FF2 /* Unicode.cpp */,
+				0C07EBCF26330AF000DC2FF2 /* Random.h */,
+				0C07EBD026330AF000DC2FF2 /* Bits.h */,
+				0C07EBD126330AF000DC2FF2 /* AtomicHashArray.h */,
+				0C07EBD226330AF000DC2FF2 /* SynchronizedPtr.h */,
+				0C07EBD326330AF000DC2FF2 /* Preprocessor.h */,
+				0C07EBD426330AF000DC2FF2 /* poly */,
+				0C07EBD526330AF000DC2FF2 /* String.h */,
+				0C07EBD626330AF000DC2FF2 /* IPAddressV6.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0C07EB1726330AF000DC2FF2 /* folly */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 0C07EBD726330AF000DC2FF2 /* Build configuration list for PBXLegacyTarget "folly" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/wsbuild/Downloads/folly/folly;
+			dependencies = (
+			);
+			name = folly;
+			passBuildSettingsInEnvironment = 1;
+			productName = folly;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		0C07EB1326330AF000DC2FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 0C07EB1626330AF000DC2FF2 /* Build configuration list for PBXProject "folly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C07EB1226330AF000DC2FF2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C07EB1726330AF000DC2FF2 /* folly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0C07EB1426330AF000DC2FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		0C07EB1526330AF000DC2FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		0C07EBD826330AF000DC2FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = folly;
+			};
+			name = Debug;
+		};
+		0C07EBD926330AF000DC2FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = folly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C07EB1626330AF000DC2FF2 /* Build configuration list for PBXProject "folly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C07EB1426330AF000DC2FF2 /* Debug */,
+				0C07EB1526330AF000DC2FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C07EBD726330AF000DC2FF2 /* Build configuration list for PBXLegacyTarget "folly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C07EBD826330AF000DC2FF2 /* Debug */,
+				0C07EBD926330AF000DC2FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C07EB1326330AF000DC2FF2 /* Project object */;
+}
