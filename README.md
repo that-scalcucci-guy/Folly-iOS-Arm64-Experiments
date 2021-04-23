@@ -20,4 +20,4 @@ This is a fool's errand, as there are so many platform specific details in Folly
 
 Attempt #3: Compile from source in Xcode as a static library. 
 
-I won't even go into details on this one. Suffice to say it was not successfuly.
+I won't even go into details on this one. Suffice to say it was not successful.
